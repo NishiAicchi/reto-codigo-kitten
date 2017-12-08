@@ -17,5 +17,17 @@
     background-image: url('../assets/img/kitten-medium.png');
     background-position: bottom;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 95%;
+}
+
+/* media queries */
+@media screen and (min-width: 420px) and (max-width: 780px) {
+    .image-center {
+        background-image: url('../assets/img/night.jpg');
+        height: 99%;
+    }
+    .second-image {
+        background-image: url('../assets/img/kitten-small.png');
+        height: 95%;
+    }
 }
