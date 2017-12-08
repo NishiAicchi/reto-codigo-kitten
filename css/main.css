@@ -7,3 +7,15 @@
     outline: 1px solid blue;
     height: 679px;
 }
+.image-center {
+    background-image: url('../assets/img/sunny-day.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+.second-image {
+    background-image: url('../assets/img/kitten-medium.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 100%;
+}
