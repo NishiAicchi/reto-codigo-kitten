@@ -22,7 +22,7 @@
 }
 
 /* media queries */
-@media screen and (min-width: 425px) and (max-width:768px) {
+@media screen and (max-width:768px) {
     .image-center {
         background-image: url('../assets/img/night.jpg');
     }
