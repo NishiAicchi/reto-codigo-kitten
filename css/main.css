@@ -8,14 +8,14 @@
     height: 679px;
 }
 .image-center {
-    background-image: url('../assets/img/sunny-day.jpg');
+    background-image: url('../assets/img/dawn.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100%;
 }
 .second-image {
-    background-image: url('../assets/img/kitten-medium.png');
+    background-image: url('../assets/img/kitten-large.png');
     background-position: bottom;
     background-repeat: no-repeat;
     height: 95%;
@@ -32,9 +32,9 @@
 }
 @media screen and (min-width: 1140px) {
     .image-center {
-        background-image: url('../assets/img/dawn.png');
+        background-image: url('../assets/img/sunny-day.jpg');
     }
     .second-image {
-        background-image: url('../assets/img/kitten-large.png');
+        background-image: url('../assets/img/kitten-medium.png');
     }
 }
